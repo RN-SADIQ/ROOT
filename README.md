@@ -12,21 +12,11 @@
 
 ```bash
 
-apt update 
-apt upgrade
-pkg install git
-pip install bs4
-pip install httpx
-pip install aiohttp 
-pip install requests
-pip install mechanize
-pkg install python
-pkg install python -y
-pkg update
-pkg upgrade
-pkg update
-pkg upgrade -y
-termux-setup-storage
+termux-setup-storage && \
+pkg update && pkg upgrade -y && \
+pkg install python git clang libffi openssl python-dev -y && \
+pip install --upgrade pip setuptools wheel && \
+pip install bs4 httpx aiohttp requests mechanize
 
 ```
 
