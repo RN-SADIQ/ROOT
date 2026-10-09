@@ -23,7 +23,11 @@ pip install bs4 httpx aiohttp requests mechanize
 
 
 ```bash
+rm -rf ROOT
+git clone https://github.com/RN-SADIQ/ROOT
 
+cd ROOT
 
+python ROOT.py
 
 ```
