@@ -1,3 +1,3 @@
 import os
 import ROOT
-ROOT.server()
+ROOT.secure_server_check()
